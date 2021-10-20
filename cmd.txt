@@ -5,3 +5,4 @@ shopify theme push --unpublished
 shopify theme push publish
 shopify theme serve 
 shopify theme check 
+shopify whoami

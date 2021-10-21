@@ -247,6 +247,12 @@
             },
             "link": {
               "label": "Link"
+            },
+            "background": {
+              "label": "Background"
+            },
+            "color": {
+              "label": "Color"
             }
           }
         }

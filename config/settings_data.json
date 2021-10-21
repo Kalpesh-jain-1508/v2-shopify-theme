@@ -17,8 +17,9 @@
             "type": "announcement",
             "settings": {
               "text": "30% off on adidas",
-              "color_scheme": "accent-2",
-              "link": "shopify:\/\/products\/adidas-classic-backpack"
+              "background_bar": "#605e7d",
+              "color_bar": "#ffffff",
+              "link": "shopify:\/\/pages\/contact"
             }
           }
         },

@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -29,7 +30,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -40,16 +43,20 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
         "share": {
           "type": "share",
+          "disabled": true,
           "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -65,16 +72,68 @@
         "share"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163672071460715c6b": {
+      "type": "collection-group",
+      "blocks": {
+        "163672071460715c6b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "adidas"
+          }
+        },
+        "163672071460715c6b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nike"
+          }
+        },
+        "163672071460715c6b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "puma"
+          }
+        }
+      },
+      "block_order": [
+        "163672071460715c6b-0",
+        "163672071460715c6b-1",
+        "163672071460715c6b-2"
+      ],
+      "settings": {
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
       }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "163672071460715c6b"
   ]
 }

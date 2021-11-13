@@ -1,0 +1,154 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "subtitle",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "163672071460715c6b": {
+      "type": "collection-group",
+      "blocks": {
+        "163672071460715c6b-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "adidas"
+          }
+        },
+        "163672071460715c6b-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nike"
+          }
+        },
+        "163672071460715c6b-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "puma"
+          }
+        }
+      },
+      "block_order": [
+        "163672071460715c6b-0",
+        "163672071460715c6b-1",
+        "163672071460715c6b-2"
+      ],
+      "settings": {
+        "container_shape": "circle",
+        "image_fit": "contain",
+        "background": "#ffffff",
+        "opacity": 1,
+        "show_title": true,
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
+      }
+    },
+    "1636785953ad27396c": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "100vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_text1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_text2": "Button label",
+        "button_link2": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "163672071460715c6b",
+    "1636785953ad27396c"
+  ]
+}

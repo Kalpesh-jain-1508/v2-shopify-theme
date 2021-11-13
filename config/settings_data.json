@@ -17,7 +17,7 @@
             "type": "announcement",
             "settings": {
               "text": "30% off on adidas",
-              "background_bar": "#605e7d",
+              "background_bar": "#000000",
               "color_bar": "#ffffff",
               "link": ""
             }
@@ -63,13 +63,11 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-1",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
+          "newsletter_paragraph": "Welcome to my shop!",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "footer_bottom_menu": "footer"
         }
       }
     },

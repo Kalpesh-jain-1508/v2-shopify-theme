@@ -118,10 +118,10 @@
         "163672071460715c6b-2"
       ],
       "settings": {
-        "container_shape": "rectangle",
-        "image_fit": "cover",
+        "container_shape": "circle",
+        "image_fit": "contain",
         "background": "#ffffff",
-        "opacity": 100,
+        "opacity": 1,
         "show_title": true,
         "xxl_col": "col-xxl-4",
         "xl_col": "col-xl-4",

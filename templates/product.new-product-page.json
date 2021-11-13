@@ -129,11 +129,26 @@
         "md_col": "col-md-4",
         "sm_col": "col-sm-2"
       }
+    },
+    "1636785953ad27396c": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "100vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_text1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_text2": "Button label",
+        "button_link2": ""
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "163672071460715c6b"
+    "163672071460715c6b",
+    "1636785953ad27396c"
   ]
 }

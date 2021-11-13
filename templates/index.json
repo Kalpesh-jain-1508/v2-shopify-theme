@@ -1,7 +1,77 @@
 {
   "sections": {
+    "163678693180d84dc5": {
+      "type": "hero-one",
+      "blocks": {
+        "1636786931c91d7d17-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "1636786931c91d7d17-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Example Message: I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
+          }
+        },
+        "1636786931c91d7d17-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636786931c91d7d17-0",
+        "1636786931c91d7d17-1",
+        "1636786931c91d7d17-2"
+      ],
+      "settings": {
+        "hero_height": "100vh",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "center"
+      }
+    },
+    "16367869675974053a": {
+      "type": "collection-product-1",
+      "settings": {
+        "collection": "nike",
+        "total_products": 4,
+        "container_shape": "square",
+        "image_fit": "contain",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
+      }
+    },
+    "163678696405c49a72": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "50vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_text1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_text2": "Button label",
+        "button_link2": ""
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "all",
@@ -16,18 +86,107 @@
         "show_rating": false
       }
     },
-    "video": {
-      "type": "video",
+    "16367870635013253c": {
+      "type": "hero-two",
       "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
+        "hero_height": "100vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_text1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_text2": "Button label",
+        "button_link2": ""
+      }
+    },
+    "16367869735d25fbd2": {
+      "type": "collection-group",
+      "blocks": {
+        "1636786973eab5a6ab-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1636786973eab5a6ab-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "1636786973eab5a6ab-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "1636786973eab5a6ab-0",
+        "1636786973eab5a6ab-1",
+        "1636786973eab5a6ab-2"
+      ],
+      "settings": {
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
+      }
+    },
+    "1636787111d96362ee": {
+      "type": "hero-one",
+      "blocks": {
+        "16367871117f5a65a1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "16367871117f5a65a1-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "paragraph": "Example Message: I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
+          }
+        },
+        "16367871117f5a65a1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16367871117f5a65a1-0",
+        "16367871117f5a65a1-1",
+        "16367871117f5a65a1-2"
+      ],
+      "settings": {
+        "hero_height": "50vh",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "right"
       }
     }
   },
   "order": [
+    "163678693180d84dc5",
+    "16367869675974053a",
+    "163678696405c49a72",
     "featured_products",
-    "video"
+    "16367870635013253c",
+    "16367869735d25fbd2",
+    "1636787111d96362ee"
   ]
 }

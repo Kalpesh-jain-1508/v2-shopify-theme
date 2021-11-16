@@ -172,6 +172,86 @@
 
 {% endcase %}
 
+<!--  <script>
+  
+   // Get body element 
+  
+   var bodyTag = document.getElementsByTagName('body')[0];
+   var headerWrapper = document.getElementById('shopify-section-header');
+  
+     //check for class fixed-nav
+   
+  if(bodyTag.classList.contains('fixed-nav') && bodyTag.classList.contains('transparent-nav')) {
+    
+
+    //change styles of header wrapper
+
+    headerWrapper.style.position = 'fixed'
+    headerWrapper.style.top = 0
+    headerWrapper.style.left = 0
+    headerWrapper.style.width = '100%'
+    headerWrapper.style.zIndex = '99999'
+
+    const onScroll = () => {
+
+      const scrollLocation =  document.documentElement.scrollTop;
+
+      if(scrollLocation > 50) {
+        console.log('scrollLocation');
+        bodyTag.classList.remove('transparent-nav')
+      } else {
+        console.log('else scrollLocation');
+
+        bodyTag.classList.add('transparent-nav')
+      }
+    }
+
+    window.addEventListener('scroll', onScroll)
+  }
+
+</script> -->
+
+<script src={{ 'zepto.min.js' | asset_url }}></script>
+<script>
+
+   // Get body element 
+  
+   var bodyTag = $('body');
+   var headerWrapper = $('#shopify-section-header');
+  
+    //check for class fixed-nav
+   
+  if(bodyTag.hasClass('fixed-nav')) {
+    
+    //change styles of header wrapper
+
+    headerWrapper.css('position', 'fixed');
+    headerWrapper.css('top', 0);
+    headerWrapper.css('left', 0);
+    headerWrapper.css('width', '100%');
+    headerWrapper.css('zIndex', '99999');
+
+    if(bodyTag.hasClass('transparent-nav'))
+    {
+      const onScroll = () => {
+        
+        const scrollLocation =  document.documentElement.scrollTop;
+        
+        if(scrollLocation > 5) {
+          bodyTag.removeClass('transparent-nav')
+        } else {          
+          bodyTag.addClass('transparent-nav')
+        }
+      }
+
+      window.addEventListener('scroll', onScroll)
+    }
+
+  }
+
+</script>
+
+
 {% schema %}
 {
 "name": "t:sections.header.name",

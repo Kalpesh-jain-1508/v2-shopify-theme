@@ -17,8 +17,8 @@
             "type": "announcement",
             "settings": {
               "text": "30% off on adidas",
-              "background_bar": "#000000",
-              "color_bar": "#ffffff",
+              "background_bar": "#d72b2b",
+              "color_bar": "#f7f9fd",
               "link": ""
             }
           }

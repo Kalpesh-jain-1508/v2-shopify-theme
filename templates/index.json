@@ -177,6 +177,43 @@
         "opacity": 50,
         "info_alignment": "right"
       }
+    },
+    "16373160954414daf3": {
+      "type": "product-highlight",
+      "blocks": {
+        "1637316095f9800b14-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "1637316095f9800b14-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Example Message: I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
+          }
+        },
+        "1637316095f9800b14-2": {
+          "type": "button",
+          "settings": {
+            "button_text": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637316095f9800b14-0",
+        "1637316095f9800b14-1",
+        "1637316095f9800b14-2"
+      ],
+      "settings": {
+        "hero_height": "100vh",
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "left"
+      }
     }
   },
   "order": [
@@ -186,6 +223,7 @@
     "featured_products",
     "16367870635013253c",
     "16367869735d25fbd2",
-    "1636787111d96362ee"
+    "1636787111d96362ee",
+    "16373160954414daf3"
   ]
 }
